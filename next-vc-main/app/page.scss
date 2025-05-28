@@ -1,0 +1,59 @@
+
+body {
+    background-color: #faf9e2;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+}
+.c-top{
+    padding-top: 20px;
+    background-color: rgb(241, 199, 199);
+
+}
+
+
+.src {
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+
+    input {
+        border-radius: 5px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 2rem;
+    }
+}
+
+
+button {
+    font-size: 12px;
+}
+
+
+
+#refreshButton {
+    color: #fff;
+    background-color: rgb(48, 48, 48);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#checkButton {
+    color: #fff;
+    background-color: rgb(25, 112, 233);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
