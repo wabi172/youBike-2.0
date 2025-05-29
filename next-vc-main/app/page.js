@@ -1,6 +1,4 @@
 'use client'
-import Link from 'next/link'
-import AccordionList from './_component/accordion'
 import Pagination from './_component/pagination'
 import useData from '../hooks/use-data'
 import { useEffect, useState } from 'react'

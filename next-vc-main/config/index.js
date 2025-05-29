@@ -7,7 +7,7 @@ export const isDev = env === 'development'
 
 // 本機環境
 const local = {
-  apiURL: 'http://localhost:3005/api',
+  apiURL: 'http://localhost:3005/proxy',
   serverURL: 'http://localhost:3005',
   avatarURL: 'http://localhost:3005/avatar',
   nextUrl: 'http://localhost:3000',

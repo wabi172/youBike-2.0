@@ -4,7 +4,7 @@ const nextConfig = {
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
-    ignoreDuringBuilds: true,
+    // ignoreDuringBuilds: true,
   },
   sassOptions: {
     silenceDeprecations: ['legacy-js-api'],
@@ -30,10 +30,6 @@ const nextConfig = {
     ],
     unoptimized: true,
   },
-  output: 'export', // 啟用靜態導出
-  distDir: 'out', // 設定輸出目錄為 out
-  trailingSlash: true, // 避免 Github Page 在某些路由找不到檔案
-
   // output: 'export', // don't use with `next start` or api route
   // distDir: 'dist',
   // avoid cors with proxy
